@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { mockData } from "../data/mockData";
 
 const Projects = () => {
@@ -129,6 +129,7 @@ const Projects = () => {
                   <div className="project-links">
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href={project.liveUrl}
                       className="project-link live-link"
                     >
@@ -137,6 +138,7 @@ const Projects = () => {
                     </a>
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href={project.githubUrl}
                       className="project-link github-link"
                     >
@@ -162,6 +164,7 @@ const Projects = () => {
                 <div className="details-links">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href={mockData.projects[activeProject].liveUrl}
                     className="details-link"
                   >

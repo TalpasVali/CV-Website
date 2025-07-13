@@ -187,7 +187,7 @@ export const mockData = {
   title: "Quick Math – Joc de reflexe și calcul mental",
   description:
     "Joc web interactiv în care utilizatorul trebuie să verifice rapid dacă ecuațiile afișate sunt corecte sau greșite. Scopul este îmbunătățirea vitezei de reacție și a gândirii matematice rapide.",
-  image: "/images/math-game.png", // Înlocuiește cu imaginea ta din public/images
+  image: "/images/math-game.png",
   technologies: [
     "HTML",
     "CSS",
