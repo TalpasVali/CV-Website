@@ -68,7 +68,7 @@ const LoadingScreen = () => {
         </div>
       </div>
       
-      <style jsx>{`
+      <style>{`
         .loading-screen {
           position: fixed;
           top: 0;

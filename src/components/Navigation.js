@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 const Navigation = ({ activeSection }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -93,7 +94,7 @@ const Navigation = ({ activeSection }) => {
         </div>
       </div>
       
-      <style jsx>{`
+      <style>{`
         .navigation {
           position: fixed;
           top: 0;
@@ -334,6 +335,10 @@ const Navigation = ({ activeSection }) => {
       `}</style>
     </>
   );
+};
+
+Navigation.propTypes = {
+  activeSection: PropTypes.string.isRequired
 };
 
 export default Navigation;

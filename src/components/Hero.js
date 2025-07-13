@@ -6,13 +6,13 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
-  const roles = [
+ 
+  useEffect(() => {
+     const roles = [
     "Full Stack Developer",
     "Frontend Specialist",
     "Creative Coder",
   ];
-// eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
     let timeout;
     const currentWord = roles[currentRole];
 
@@ -38,7 +38,7 @@ const Hero = () => {
     }
 
     return () => clearTimeout(timeout);
-  }, [displayText, isTyping, currentRole, roles]);
+  }, [displayText, isTyping, currentRole]);
 
   const scrollToContact = () => {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
@@ -144,7 +144,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .hero-section {
           min-height: 100vh;
           display: flex;

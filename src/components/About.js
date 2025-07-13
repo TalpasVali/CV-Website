@@ -147,7 +147,7 @@ const About = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .about-section {
           min-height: 100vh;
           padding: 100px 0;

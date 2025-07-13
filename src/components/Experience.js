@@ -103,7 +103,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .experience-section {
           min-height: 100vh;
           padding: 100px 0;

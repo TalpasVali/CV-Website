@@ -89,7 +89,7 @@ const Education = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .education-section {
           min-height: 100vh;
           padding: 100px 0;

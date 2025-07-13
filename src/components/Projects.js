@@ -4,7 +4,7 @@ import { mockData } from "../data/mockData";
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeProject, setActiveProject] = useState(0);
-  const [hoveredProject, setHoveredProject] = useState(null);
+  const [, setHoveredProject] = useState(null);
 // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -173,6 +173,7 @@ const Projects = () => {
                   </a>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href={mockData.projects[activeProject].githubUrl}
                     className="details-link"
                   >
@@ -219,7 +220,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .projects-section {
           min-height: 100vh;
           padding: 100px 0;

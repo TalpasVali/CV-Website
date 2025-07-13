@@ -116,7 +116,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .skills-section {
           min-height: 100vh;
           padding: 100px 0;

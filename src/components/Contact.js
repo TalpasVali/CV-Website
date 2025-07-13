@@ -253,7 +253,7 @@ const Contact = () => {
       <footer className="site-footer">
         <div className="footer-content">
           <div className="footer-text">
-            <p>&copy; 2024 {mockData.personal.name}. Toate drepturile rezervate.</p>
+            <p>&copy; 2025 {mockData.personal.name}. Toate drepturile rezervate.</p>
             <p>Creat cu ❤️ în {mockData.personal.location}</p>
           </div>
           <div className="footer-links">
@@ -265,7 +265,7 @@ const Contact = () => {
         </div>
       </footer>
 
-      <style jsx>{`
+      <style>{`
         .contact-section {
           min-height: 100vh;
           padding: 100px 0 0;
