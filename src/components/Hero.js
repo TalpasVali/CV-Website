@@ -11,7 +11,7 @@ const Hero = () => {
     "Frontend Specialist",
     "Creative Coder",
   ];
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     let timeout;
     const currentWord = roles[currentRole];

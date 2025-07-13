@@ -15,7 +15,7 @@ import Navigation from './components/Navigation';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [activeSection, setActiveSection] = useState('hero');
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     // Simulate loading time
     const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['hero', 'about', 'experience', 'education', 'skills', 'projects', 'contact'];

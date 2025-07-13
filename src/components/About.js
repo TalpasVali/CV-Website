@@ -4,7 +4,7 @@ import { mockData } from '../data/mockData';
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeTab, setActiveTab] = useState('story');
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

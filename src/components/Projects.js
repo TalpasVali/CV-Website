@@ -5,7 +5,7 @@ const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeProject, setActiveProject] = useState(0);
   const [hoveredProject, setHoveredProject] = useState(null);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

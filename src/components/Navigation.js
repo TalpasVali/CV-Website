@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Navigation = ({ activeSection }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);

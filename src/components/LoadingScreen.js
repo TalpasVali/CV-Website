@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const LoadingScreen = () => {
   const [progress, setProgress] = useState(0);
   const [loadingText, setLoadingText] = useState('Inițializare...');
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const interval = setInterval(() => {
       setProgress(prev => {

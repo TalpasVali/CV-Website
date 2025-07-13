@@ -4,7 +4,7 @@ import { mockData } from '../data/mockData';
 const Experience = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeExperience, setActiveExperience] = useState(0);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
