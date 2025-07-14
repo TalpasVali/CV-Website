@@ -127,7 +127,8 @@ const Projects = () => {
                   </div>
 
                   <div className="project-links">
-                    <a
+                    {project.liveUrl && (
+                      <a
                       target="_blank"
                       rel="noreferrer"
                       href={project.liveUrl}
@@ -136,15 +137,18 @@ const Projects = () => {
                       <span className="link-icon">🔗</span>
                       <span>Vezi demo</span>
                     </a>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href={project.githubUrl}
-                      className="project-link github-link"
-                    >
-                      <span className="link-icon">📂</span>
-                      <span>Cod sursă</span>
-                    </a>
+                    )}
+                    {project.githubUrl && (
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href={project.githubUrl}
+                        className="project-link github-link"
+                      >
+                        <span className="link-icon">📂</span>
+                        <span>Cod sursă</span>
+                      </a>
+                    )}
                   </div>
                 </div>
 

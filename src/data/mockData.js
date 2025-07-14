@@ -136,8 +136,8 @@ export const mockData = {
         "Dashboard cu statistici live (venituri, popularitate, heatmap)",
         "Administrare galerie și servicii prin panou dedicat",
       ],
-      liveUrl: "https://barbershop-demo.netlify.app",
-      githubUrl: "https://github.com/valitalpas/barbershop-app",
+      liveUrl: "",
+      githubUrl: "",
       status: "Completed",
     },
 
@@ -161,8 +161,8 @@ export const mockData = {
         "Matchmaking: adaugă câți jucători mai sunt necesari",
         "Pagină de profil cu istoricul rezervărilor",
       ],
-      liveUrl: "https://yardly-demo.vercel.app",
-      githubUrl: "https://github.com/valitalpas/yardly-app",
+      liveUrl: "",
+      githubUrl: "",
       status: "In Progress",
     },
     {
@@ -201,7 +201,7 @@ export const mockData = {
     "Interfață responsive optimizată pentru desktop și mobil"
   ],
   liveUrl: "https://creative-marzipan-2c71f0.netlify.app/",
-  githubUrl: "https://github.com/TalpasVali/quick-math-game",
+  githubUrl: "https://github.com/TalpasVali/math-game",
   status: "Completed"
 },
 
@@ -234,8 +234,8 @@ export const mockData = {
         "Rezolvări documentate și optimizate, salvate pe GitHub",
         "Progres constant pentru pregătire la interviuri și concursuri algoritmice",
       ],
-      liveUrl: "https://leetcode.com/valitalpas",
-      githubUrl: "https://github.com/valitalpas/leetcode-solutions",
+      liveUrl: "https://leetcode.com",
+      githubUrl: "",
       status: "Ongoing",
     },
   ],

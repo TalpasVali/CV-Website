@@ -98,18 +98,24 @@ const Hero = () => {
 
             <div className="hero-social animate-fadeInUp">
               <a
+              target="_blank"
+                rel="noreferrer"
                 href={`mailto:${mockData.personal.email}`}
                 className="social-link"
               >
                 <div className="social-icon">✉️</div>
               </a>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href={`https://${mockData.personal.linkedin}`}
                 className="social-link"
               >
                 <div className="social-icon">💼</div>
               </a>
               <a
+              target="_blank"
+                rel="noreferrer"
                 href={`https://${mockData.personal.github}`}
                 className="social-link"
               >
