@@ -183,27 +183,22 @@ export const mockData = {
       status: "Completed",
     },
     {
-  id: 4,
-  title: "Quick Math – Joc de reflexe și calcul mental",
-  description:
-    "Joc web interactiv în care utilizatorul trebuie să verifice rapid dacă ecuațiile afișate sunt corecte sau greșite. Scopul este îmbunătățirea vitezei de reacție și a gândirii matematice rapide.",
-  image: "/images/math-game.png",
-  technologies: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "LocalStorage"
-  ],
-  features: [
-    "Moduri multiple de dificultate: 10, 25, 50 sau 99 de întrebări",
-    "Cronometru automat și sistem de scor personalizat",
-    "Salvarea celor mai bune scoruri în LocalStorage",
-    "Interfață responsive optimizată pentru desktop și mobil"
-  ],
-  liveUrl: "https://creative-marzipan-2c71f0.netlify.app/",
-  githubUrl: "https://github.com/TalpasVali/math-game",
-  status: "Completed"
-},
+      id: 4,
+      title: "Quick Math – Joc de reflexe și calcul mental",
+      description:
+        "Joc web interactiv în care utilizatorul trebuie să verifice rapid dacă ecuațiile afișate sunt corecte sau greșite. Scopul este îmbunătățirea vitezei de reacție și a gândirii matematice rapide.",
+      image: "/images/math-game.png",
+      technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+      features: [
+        "Moduri multiple de dificultate: 10, 25, 50 sau 99 de întrebări",
+        "Cronometru automat și sistem de scor personalizat",
+        "Salvarea celor mai bune scoruri în LocalStorage",
+        "Interfață responsive optimizată pentru desktop și mobil",
+      ],
+      liveUrl: "https://creative-marzipan-2c71f0.netlify.app/",
+      githubUrl: "https://github.com/TalpasVali/math-game",
+      status: "Completed",
+    },
 
     {
       id: 5,
@@ -219,6 +214,23 @@ export const mockData = {
       ],
       liveUrl: "https://admirable-panda-fb885d.netlify.app/",
       githubUrl: "https://github.com/TalpasVali/light-dark-mode",
+      status: "Completed",
+    },
+
+    {
+      id: 8,
+      title: "Usta doner – Site de prezentare pentru fast-food",
+      description:
+        "Website modern și responsiv pentru o shaormerie locală, conceput pentru a crește vizibilitatea online și a atrage clienți printr-un design atrăgător și ușor de navigat.",
+      image: "/images/usta-doner.png",
+      technologies: ["HTML", "CSS", "JavaScript", "SCSS", "Bootstrap"],
+      features: [
+        "Prezentarea meniului cu imagini și prețuri",
+        "Design responsive pentru mobil și desktop",
+        "Informații și formulare de contact",
+      ],
+      liveUrl: "https://ustadoner.netlify.app/",
+      githubUrl: "https://github.com/TalpasVali/usta-doner",
       status: "Completed",
     },
 
